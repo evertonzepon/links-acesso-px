@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 100vh; /* Garante que o body ocupe toda a altura da janela */
 }
 
 header {
@@ -29,6 +30,7 @@ main {
     max-width: 1200px;
     display: flex;
     justify-content: center;
+    flex-grow: 1; /* Faz com que o main ocupe o espaço disponível */
 }
 
 .link-container {
@@ -73,7 +75,6 @@ main {
 }
 
 footer {
-    margin-top: auto;
     background-color: #6200ea;
     color: #fffa;
     text-align: center;
