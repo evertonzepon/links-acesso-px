@@ -35,11 +35,21 @@ main {
 
 .link-container {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*
+.link-container {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);/
     gap: 20px;
     width: 100%;
     max-width: 1200px;
 }
+*/
 
 .link-card {
     background: #fff;
