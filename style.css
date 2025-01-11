@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh; /* Garante que o body ocupe toda a altura da janela */
+    min-height: 100vh;
 }
 
 header {
@@ -30,13 +30,13 @@ main {
     max-width: 1200px;
     display: flex;
     justify-content: center;
-    flex-grow: 1; /* Faz com que o main ocupe o espaço disponível */
+    flex-grow: 1;
 }
 
 .link-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 colunas com largura igual */
-    gap: 20px; /* Espaçamento uniforme de 20px entre os cards */
+    grid-template-columns: repeat(3, 1fr);/
+    gap: 20px;
     width: 100%;
     max-width: 1200px;
 }
